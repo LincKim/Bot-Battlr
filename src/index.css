@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.army {
+  overflow-x: scroll;
+  min-height: 300px;
+  max-width: 100%;
+}
+.army-row {
+  flex-wrap: nowrap;
+  min-height: 100%;
+}
