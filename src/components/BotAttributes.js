@@ -27,6 +27,8 @@ const classBot = {
                             Class: {bot.bot_class}
                             <i className={classBot[bot.bot_class]}/>
                         </strong>
+                        <br />
+                        
                     </div>
                 </div>
             </div>
