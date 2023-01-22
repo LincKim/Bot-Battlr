@@ -5,7 +5,7 @@ const classBot = {
     Defender: " fas fa-shield-alt",
     Support: "fas fa-user-tie",
     Medic: "fas fa-ambulance",
-    Witch: "	fas fa-broom",
+    Witch: "fas fa-broom",
     Captain: " fas fa-star",
   };
 
@@ -28,10 +28,37 @@ const classBot = {
                             <i className={classBot[bot.bot_class]}/>
                         </strong>
                         <br />
-                        
+                        <div>
+                            <div>
+                                <div>
+                                    <div>
+                                        <i className=""/>
+                                        <strong>{bot.health}</strong>
+                                    </div>
+                                    <div>
+                                        <i className=""/>
+                                        <strong>{bot.damage}</strong>
+                                    </div>
+                                    <div>
+                                        <i className=""/>
+                                        <strong>{bot.armor}</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button
+                        onClick={()=>{}}>
+                            Back
+                        </button>
+                        <button
+                        onClick={()=>{}}>
+                            EnList
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     )
   }
+
+  export default BotAttribute
