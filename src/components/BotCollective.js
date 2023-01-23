@@ -6,11 +6,13 @@ function BotCollective ({numberBots, enlistBot, deleteBot}){
     const showBot = numberBots.map((bot)=>{
         return (
             <CardBot 
+
             key={bot.id}
             bot={bot}
             clickEvent={enlistBot}
             deleteBot={deleteBot}
             />
+
         )
     })
 
