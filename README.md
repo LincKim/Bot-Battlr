@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# MARVIN'S BOT BATTLR
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Description
+The project is built out of React and displays a list of available bots from a json-server among other features pertaining to the bots. One is able to see the profiles of all bots that are rendered in BotCollective and one is able to add a bot to their army by simply clicking on it. To release the bot from the army one just needs to simply click on it.
 
-## Available Scripts
+# Getting Started
+In order to be able to use this particular repository one needs to have the following:
 
-In the project directory, you can run:
+- A computer that runs either on: (Windows 7+, Linux, Mac OS).
+- A little bit of patience.
 
-### `npm start`
+# Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To be able to use the code in your machine one needs to:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Open the terminal on your computer
+- Clone the repo by using the following:
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+        git clone git@github.com:MathaiMarvin/Bot-Battlr.git
 
-### `npm run build`
+- Change directory to the repository folder:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+        cd Bot-Battlr
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Open code in text editor:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+        code .
 
-### `npm run eject`
+- Ensure that JSON server is installed in your machine:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+        npm install -g json-server
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Running Application
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+After unbundling the project:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Run in terminal:
 
-## Learn More
+        npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Run in terminal:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+        npm run server
 
-### Code Splitting
+- In a new terminal run:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+        npm start
 
-### Analyzing the Bundle Size
+Ensure that you open in browser to be able to verify that the backend is working before proceeding.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+        http://localhost:3000/bots
 
-### Making a Progressive Web App
+# Live link of the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+        https://bot-battlr-zeta.vercel.app/
 
-### Advanced Configuration
+# Author
+ Marvin Mathai
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+ # License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ ISC license
