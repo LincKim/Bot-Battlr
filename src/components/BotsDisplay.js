@@ -10,7 +10,7 @@ function BotsDisplay (){
     //fetch data regarding bots
 
     const getData =()=>{
-        return (fetch (`https://json-server-vercel-bot.vercel.app/bots`)
+        return (fetch (`https://bot-nu-ten.vercel.app/bots`)
                     .then(res=>res.json())
                     .then((data)=>{
                         setBots(data)
